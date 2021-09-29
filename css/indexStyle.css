@@ -1,0 +1,50 @@
+#loginArea
+{  
+    position: absolute; 
+    top:50%;
+    left: 50%;    
+    transform: translate(-50%,-50%);    
+    text-align: center; 
+    background-color: white;    
+    padding: 20px;   
+    box-shadow: 5px 5px 5px rgba(54, 54, 54, 0.767);
+    border-radius: 10px; 
+}
+
+img.databaseImage
+{
+    display: block;
+    width: 60px;
+    margin:20px auto 20px auto;
+    
+}
+div.divContent
+{
+    margin: 0 0 10px 0;
+    text-align: center;
+    width: 100%;
+}
+input.inputArea
+{
+    margin:auto 0 auto 0;
+    width: 87%;
+    font-size: medium; 
+}
+
+#userIcon,#passwordIcon
+{
+    display:inline-block;
+    vertical-align: middle;    
+    width:10%    
+}
+#inputButton
+{
+    display: inline-block;    
+    margin-left: auto;
+    
+}
+#cancelButton
+{
+    display: inline-block;
+    margin-right: 0;
+}

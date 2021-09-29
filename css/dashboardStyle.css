@@ -1,0 +1,98 @@
+#painel1
+{
+    text-align:center;
+    width:66%;
+    margin-bottom: 2vh;
+}
+div.divIndicador
+{
+    color: black;
+    text-align: center; 
+    background-color: white;
+    width: 30%;            
+    display:inline-flex; 
+    box-shadow: 5px 5px 5px rgba(54, 54, 54, 0.767);
+    border-radius: 10px;     
+}
+#divGrafico1
+{
+    display:inline-block;
+    margin: 1vh 0 0 0;
+    width: 66%;
+    height: 59vh;   
+    color: black;
+    text-align: center; 
+    background-color: white; 
+    box-shadow: 5px 5px 5px rgba(54, 54, 54, 0.767);
+    border-radius: 10px;
+    padding: 0.5%;
+}
+#painel2
+{
+    display:inline-block;
+    margin:0 0 0 .5%;
+    width:33%;
+}
+#divGrafico2
+{
+    margin: 0 0 3vh 0;
+    width: 100%;
+    height: 28vh;      
+    color: black;
+    text-align: center; 
+    background-color: white; 
+    box-shadow: 5px 5px 5px rgba(54, 54, 54, 0.767);
+    border-radius: 10px;
+    padding: 0.5vw;
+}
+#divGrafico3
+{
+    
+    margin: 0;
+    width: 100%; 
+    height: 28vh;      
+    color: black;
+    text-align: center; 
+    background-color: white; 
+    box-shadow: 5px 5px 5px rgba(54, 54, 54, 0.767);
+    border-radius: 10px;
+    padding: 0.5vw;
+}
+
+span.titulo
+{
+    font-size: 1vw;
+    margin: 2px;
+    display: block;
+    color:#b0b0b0;
+}
+span.valor
+{
+    font-size:larger;
+    
+}
+
+@media screen and (max-width:1000px)
+{
+    #divGrafico1
+    {
+        display: block;
+        width: 100%;
+        height: 50vw;
+        margin-bottom: 20px;
+    }
+    #painel2
+    {
+        display: block;
+        width: 100%;        
+        margin-bottom: 20px;
+    }
+    #painel1
+    {
+        width: 100%;
+    }
+    #divGrafico2,#divGrafico3
+    {
+        height: 50vw;
+    }
+}

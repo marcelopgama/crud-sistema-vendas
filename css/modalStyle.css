@@ -1,0 +1,22 @@
+.myModalClass
+{
+    position:fixed;
+    bottom:2%;right:3%;
+    border-color:black;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 10px;    
+    background-color: white;
+    transform: scale(0);
+    transition: 300ms ease-in-out;
+    cursor:move;
+}
+.modalBody
+{
+    text-align: right;
+    margin-top: 5px;
+}
+.myModalClass.animate
+{
+    transform: scale(1);
+}

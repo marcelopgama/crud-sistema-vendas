@@ -1,0 +1,24 @@
+form.setupArea
+{
+    position: absolute;
+    width: 50%; 
+    height: 60%;
+    top:50%;
+    left: 50%;    
+    transform: translate(-50%,-50%);
+    background-color: white;    
+    padding: 10px;   
+    box-shadow: 5px 5px 5px rgba(54, 54, 54, 0.767); 
+}
+#outputArea
+{
+    background-color: black;
+    color: green;
+    width: 100%;
+    margin-top: 2%;
+    resize: none; 
+    overflow: auto; 
+    height: 85%;
+    text-align: left;
+    
+}

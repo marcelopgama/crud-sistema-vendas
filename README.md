@@ -26,6 +26,7 @@ Um sistema de gerenciamento de vendas completo baseado em PHP com funções de l
 <li>CSS3</li>
 <li>JavaScript ES 6</li>
 <li>VSCode 1.60.2</li>
+<li>Google Charts v51</li>
 </ul>
 
 # Melhorias futuras
